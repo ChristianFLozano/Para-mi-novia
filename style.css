@@ -8,38 +8,6 @@ header {
     width: 100%;
     background-color: #8B008B;
     padding: 0;
-}
-
-.presentacion {
-    width: 50%;
-    height: auto;
-    float: left;
-    text-align: center;
-    line-height: 2.4em;
-}
-
-.imagen {
-    width: 50%;
-    height: auto;
-    float: left;
-    background-color: #D8BFD8;
-    border-radius: 5%;
-}
-
-.imagen img {
-    width: 100%;
-    height: 100%;
-}
-body {
-    margin: 0;
-    background-color: rgb(243, 204, 240);
-}
-
-header {
-    height: 6rem;
-    width: 100%;
-    background-color: #8B008B;
-    padding: 0;
     margin-top: 0%;
 }
 
@@ -50,20 +18,24 @@ h1 {
     color: rgb(255, 255, 255);
     margin: 0;
 }
-h2{
+
+h2, p, ul {
     margin: 0%;
 }
-p{
-    margin: 0%;
-}
+
 .presentacion {
     width: 50%;
     height: auto;
     float: left;
+    text-align: center;
+    line-height: 2.4em;
     color: rgb(42, 45, 47);
 }
 
 .imagen {
+    width: 50%;
+    height: auto;
+    float: left;
     background-color: #D8BFD8;
     border-radius: 5%;
     overflow: hidden;
@@ -76,52 +48,52 @@ p{
     border-radius: 5%;
     transition: all 0.5s ease;
     filter: brightness(.8);
-    
 }
 
-.imagen img:hover{
-    width: auto;
+.imagen img:hover {
     height: 45em;
-    padding: 0px 0px 0px 0px;
+    padding: 0;
     transition-duration: 0.5s;
     filter: brightness(1);
 }
 
-main{
+main {
     background-color: #ffbee7;
     clear: left;
     height: auto;
 }
-.subtitle{
+
+.subtitle {
     background-color: #292a56;
     color: white;
     font-size: 3em;
     text-align: center;
 }
-.gallery{
+
+.gallery {
     height: auto;
     overflow: hidden;
 }
 
-.photos{
+.photos {
     display: inline-flex;
     height: 40em;
     width: auto;
     margin: 10px;
 }
 
-.photos:hover{
+.photos:hover {
     height: 42em;
-    margin: 0px;
+    margin: 0;
     transition-duration: 0.5s;
 }
 
-.goals{
-    background-color:#8457aa ;
+.goals {
+    background-color: #8457aa;
     height: auto;
 }
 
-.goal{
+.goal {
     display: inline-table;
     background-color: #e2e2e2;
     width: 44em;
@@ -133,38 +105,35 @@ main{
     font-size: 15pt;
 }
 
-.goal img{
+.goal img {
     float: inline-start;
     width: 7em;
     height: auto;
 }
 
-.goal a{
+.goal a {
     float: inline-end;
 }
 
-.songs{
+.songs {
     margin-bottom: 0%;
     background-color: #4d3d79;
     color: #e2e2e2;
 }
 
-.songs p{
+.songs p {
     font-size: 2em;
     padding: .5em;
 }
-ul{
-    margin: 0%;
-}
 
-footer{
+footer {
     background-color: #292a56;
     color: antiquewhite;
     font-size: 3em;
     text-align: center;
 }
 
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 1080px) {
     header {
         height: 20rem;
     }
@@ -184,39 +153,38 @@ footer{
     .imagen {
         width: 100%;
         height: auto;
-        background-color:  #D8BFD8;
+        background-color: #D8BFD8;
         border-radius: 5%;
     }
     .imagen img {
         width: 25em;
         height: auto;
     }
-    .imagen img:hover{
-        width: auto;
+    .imagen img:hover {
         height: 22em;
     }
-    .subtitle{
+    .subtitle {
         font-size: 5em;
         text-align: center;
         padding-top: 2em;
     }
-    .photos{
-        display:block;
+    .photos {
+        display: block;
         height: auto;
         width: auto;
         margin: 10px;
     }
-    .photos:hover{
+    .photos:hover {
         height: 80em;
-        margin: 0px;
+        margin: 0;
         transition-duration: 0s;
     }
-    .photos img{
+    .photos img {
         padding-left: 3em;
         height: 80em;
         width: auto;
     }
-    .goal{
+    .goal {
         display: block;
         width: 18em;
         height: 20em;
@@ -225,15 +193,15 @@ footer{
         padding: .5em;
         font-size: 40pt;
     }
-    .songs p{
+    .songs p {
         font-size: 5em;
         padding: .5em;
     }
-    li{
+    li {
         font-size: 3em;
         line-height: 2.5em;
     }
-    footer{
+    footer {
         font-size: 12em;
         text-align: center;
     }
