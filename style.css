@@ -206,6 +206,11 @@ footer{
         width: auto;
         margin: 10px;
     }
+    .photos:hover{
+        height: 80em;
+        margin: 0px;
+        transition-duration: 0s;
+    }
     .photos img{
         padding-left: 3em;
         height: 80em;
