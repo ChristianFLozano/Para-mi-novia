@@ -133,7 +133,7 @@ footer {
     text-align: center;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
     header {
         height: 20rem;
     }
@@ -148,7 +148,9 @@ footer {
         width: 100%;
         height: auto;
         line-height: 2em;
-        font-size: 2em;
+        font-size: 1.5em;
+        text-align: center;
+        padding: .1em;
     }
     .imagen {
         width: 100%;
@@ -180,7 +182,7 @@ footer {
         transition-duration: 0s;
     }
     .photos img {
-        padding-left: 3em;
+        padding-left: 2em;
         height: 80em;
         width: auto;
     }
@@ -188,7 +190,7 @@ footer {
         display: block;
         width: 18em;
         height: 20em;
-        margin: .2em .5em 0em;
+        margin: 5% 1% 0% 0%;
         border-radius: 5%;
         padding: .5em;
         font-size: 40pt;
