@@ -219,13 +219,14 @@ footer {
     }
     .photos img {
         padding-left: 1em;
-        height: 32em;
+        height: 30em;
         width: auto;
     }
     .goal {
-        width: 23em;
+        width: 22em;
         height: auto;
         font-size: 1em;
+        margin: .5em;
     }
     .songs p {
         font-size: 1.5em;
@@ -290,7 +291,7 @@ footer {
     }
     .goal {
         display: block;
-        width: 18em;
+        width: 17.5em;
         height: 20em;
         margin: 5% 1% 0% 0%;
         border-radius: 5%;
