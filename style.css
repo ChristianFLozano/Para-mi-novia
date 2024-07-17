@@ -184,7 +184,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 480px) and (min-width: 381) {
+@media only screen and (max-width: 480px) and (min-width: 381px) {
     header {
         height: 8rem;
     }
