@@ -160,19 +160,20 @@ footer {
         display: block;
         width: 100%;
         height: auto;
+        margin: .2em;
     }
     .photos:hover {
-        height: 10em;
+        height: 36em;
         margin: 0;
         transition-duration: 0s;
     }
     .photos img {
-        padding-left: 1.5em;
-        height: 35em;
+        padding-left: 1em;
+        height: 32em;
         width: auto;
     }
     .goal {
-        width: 26em;
+        width: 23em;
         height: auto;
         font-size: 1em;
     }
